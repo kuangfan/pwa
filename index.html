@@ -11,7 +11,6 @@
 <body>
   <h1>PWA TEST</h1>
   <script type="text/javascript">
-    alert('serviceWorker' in navigator)
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('sw.js')
